@@ -1,0 +1,49 @@
+[
+  {
+    "id": "94de0310-7a0d-4aff-8a47-5d2a60575e5e",
+    "customerId": "1c44eea7-400a-4f6f-ab99-5e8c853ea363",
+    "orderDate": "2021-04-15T22:54:44.485Z",
+    "orderItems": [
+      {
+        "productId": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+        "productName": "Espresso",
+        "productPrice": 2.50
+      },
+      {
+        "productId": "5a8c5f7f-0781-4d5e-9d9b-41ef2da5f3c3",
+        "productName": "Cappuccino",
+        "productPrice": 3.50
+      }
+    ],
+    "shippingAddress": {
+      "street": "123 Other Street",
+      "city": "Palo Alto",
+      "state": "CA",
+      "country": "USA",
+      "postalCode": "98765"
+    },
+    "orderState": 0,
+    "eTag": "32c838de-bcb6-4518-bf4e-13eb09edf280"
+  },
+  {
+    "id": "a9d6288a-07e8-4df8-8a32-85d7483a7f6f",
+    "customerId": "1c44eea7-400a-4f6f-ab99-5e8c853ea363",
+    "orderDate": "2021-04-15T22:54:44.485Z",
+    "orderItems": [
+      {
+        "productId": "42b27777-6eff-4193-828d-5fe554a705d1",
+        "productName": "Chai",
+        "productPrice": 1.50
+      }
+    ],
+    "shippingAddress": {
+      "street": "123 Other Street",
+      "city": "Palo Alto",
+      "state": "CA",
+      "country": "USA",
+      "postalCode": "98765"
+    },
+    "orderState": 0,
+    "eTag": "9d01bc8c-b354-4b65-88b7-8116b4537c93"
+  }
+]
