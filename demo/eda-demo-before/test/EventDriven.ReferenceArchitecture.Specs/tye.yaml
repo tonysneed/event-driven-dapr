@@ -6,23 +6,23 @@
 #
 
 # dapr
-extensions:
-  - name: dapr
-    log-level: debug
-    components-path: "../../reference-architecture/dapr/components"
+#extensions:
+#  - name: dapr
+#    log-level: debug
+#    components-path: "../../src/dapr/components"
 
 # services
 name: eventdriven.reference-architecture
 services:
   - name: customerservice
-    project: ../../reference-architecture/CustomerService/CustomerService.csproj
+    project: ../../src/CustomerService/CustomerService.csproj
     bindings:
       - port: 5656
     env:
       - name: CustomerDatabaseSettings:DatabaseName
         value: CustomersTestDb
   - name: orderservice
-    project: ../../reference-architecture/OrderService/OrderService.csproj
+    project: ../../src/OrderService/OrderService.csproj
     bindings:
       - port: 5757
     env:

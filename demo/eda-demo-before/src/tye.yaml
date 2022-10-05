@@ -10,10 +10,10 @@
 name: event-driven-ref-arch
 
 # dapr extension
-extensions:
-  - name: dapr
-    log-level: debug
-    components-path: "dapr/components"
+#extensions:
+#  - name: dapr
+#    log-level: debug
+#    components-path: "dapr/components"
 
 # define multiple services here
 # project: app.csproj # msbuild project path (relative to this file)
