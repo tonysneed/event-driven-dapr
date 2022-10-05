@@ -27,8 +27,8 @@ builder.Services.AddTransient(typeof(IPipelineBehavior<,>), typeof(LoggingBehavi
 builder.Services.AddSingleton<IOrderRepository, OrderRepository>();
 builder.Services.AddMongoDbSettings<OrderDatabaseSettings, Order>(builder.Configuration);
 
-// Add event handlers
-builder.Services.AddSingleton<CustomerAddressUpdatedEventHandler>();
+// TODO: Add event handlers
+// builder.Services.AddSingleton<CustomerAddressUpdatedEventHandler>();
 
 // TODO: Add Dapr event bus
 // builder.Services.AddDaprEventBus(builder.Configuration, true);

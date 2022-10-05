@@ -280,7 +280,7 @@ Use [Dapr](https://dapr.io/) with an [event bus](https://github.com/event-driven
     extensions:
       - name: dapr
         log-level: debug
-        components-path: "../../reference-architecture/dapr/components"
+        components-path: "../../src/dapr/components"
     ```
     - Execute `tye run` at the `Specs` project root.
       - Open http://localhost:8000 to verify services are up and running with Dapr sidecars.
@@ -298,7 +298,7 @@ Use [Dapr](https://dapr.io/) with an [event bus](https://github.com/event-driven
 ![command-handler-breakpoint](images/command-handler-breakpoint.png)
     - In **OrderService** open `CustomerAddressUpdatedEventHandler` in **Integration/EventHandlers** and set a breakpoint on `line 26` in the `HandleAsync` method.
 ![event-handler-breakpoint](images/event-handler-breakpoint.png)
-2. From a terminal at **reference-architecture** execute `tye run`.
+2. From a terminal at **src** execute `tye run`.
       - Go to http://localhost:5656/swagger
       - Execute POST with the following JSON.
       ```json
@@ -370,7 +370,7 @@ Use [Dapr](https://dapr.io/) with an [event bus](https://github.com/event-driven
       "eTag": ""
     }
     ```
-4. Edit **tye.yaml** at the **reference-architecture** directory to comment out the `orderservice` section.
+4. Edit **tye.yaml** at the **src** directory to comment out the `orderservice` section.
   ![tye-comment-orderservice](images/tye-comment-orderservice.png)
    - This will allow you to run and debug just the publish side.
      - Because Dapr is queuing events published to the event bus, we can run CustomerService and OrderService separately.

@@ -5,8 +5,7 @@ VisualStudioVersion = 17.0.32014.148
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{AFFCBFA4-9D64-43AA-AC59-D4CC54BD9C72}"
 	ProjectSection(SolutionItems) = preProject
-		ReadMe.md = ReadMe.md
-		DevelopmentGuide.md = DevelopmentGuide.md
+		..\..\ReadMe.md = ..\..\ReadMe.md
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{269CD137-4093-4100-B33E-808586D335F6}"
@@ -18,22 +17,21 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{C4FD0AF1-927
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "json", "json", "{B11B21E0-7B89-4285-990A-D98793310B02}"
 	ProjectSection(SolutionItems) = preProject
-		reference-architecture\json\customers.json = reference-architecture\json\customers.json
-		reference-architecture\json\orders.json = reference-architecture\json\orders.json
+		src\json\customers.json = src\json\customers.json
+		src\json\orders.json = src\json\orders.json
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "dapr", "dapr", "{F0E48E00-7D72-4614-9C13-90A7B015B06F}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "components", "components", "{00BA9501-787E-465C-97D0-F51295D97802}"
 	ProjectSection(SolutionItems) = preProject
-		reference-architecture\dapr\components\pubsub.yaml = reference-architecture\dapr\components\pubsub.yaml
-		reference-architecture\dapr\components\statestore-mongodb.yaml = reference-architecture\dapr\components\statestore-mongodb.yaml
-		reference-architecture\dapr\components\statestore.yaml = reference-architecture\dapr\components\statestore.yaml
+		src\dapr\components\pubsub.yaml = src\dapr\components\pubsub.yaml
+		src\dapr\components\statestore-mongodb.yaml = src\dapr\components\statestore-mongodb.yaml
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "standby", "standby", "{A045033E-5283-4A6F-87D3-B02194595788}"
 	ProjectSection(SolutionItems) = preProject
-		reference-architecture\dapr\standby\pubsub-snssqs.yaml = reference-architecture\dapr\standby\pubsub-snssqs.yaml
+		src\dapr\standby\pubsub-snssqs.yaml = src\dapr\standby\pubsub-snssqs.yaml
 	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventDriven.ReferenceArchitecture.Specs", "test\EventDriven.ReferenceArchitecture.Specs\EventDriven.ReferenceArchitecture.Specs.csproj", "{68B613B3-EB4A-41DB-A61E-1E031C5BFA85}"
