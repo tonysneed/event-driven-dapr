@@ -15,3 +15,9 @@ Use [Dapr](https://dapr.io/) with an [event bus](https://github.com/event-driven
 - [Distributed Application Runtime (Dapr)](https://dapr.io/)
 - [Event Driven.NET Blog Post](https://blog.tonysneed.com/2022/03/21/event-driven-microservices-dotnet-platform/)
 - [Event Driven .NET Home](https://github.com/event-driven-dotnet/home)
+
+### Reference Architecture
+
+<p align="center">
+  <img width="900" src="images/event-driven-ref-arch.png">
+</p>
